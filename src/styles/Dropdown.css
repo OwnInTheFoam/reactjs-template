@@ -1,0 +1,54 @@
+.dropdown {
+  float: right;
+  overflow: hidden;
+  max-width: 70px; /*The div containing the img decides to be to big without this*/
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0; /*The img adds its own margin*/
+}
+
+nav img:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  right: 0px; /*We want the drop down to work from the right*/
+  padding: 30px;
+  position: absolute;
+  background-color: #272727;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-link {
+  text-align: left;
+  position: relative;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

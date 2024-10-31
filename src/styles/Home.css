@@ -1,0 +1,26 @@
+
+/* Hero container */
+.home-hero-container{
+  width: 100%;
+  position: relative;
+}
+.home-hero{
+  width: 100%;
+  opacity: 95%;
+}
+.home-hero-text{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+.home-cta{
+  background: #11a6e1;
+  width: 9em;
+  display: block;
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 0.7em;
+  font-size: 1.5em;
+  margin: 5% auto;
+}

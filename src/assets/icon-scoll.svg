@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46.558" height="46.558" viewBox="0 0 46.558 46.558">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #11a6e1;
+      }
+    </style>
+  </defs>
+  <g id="icon-scoll" transform="translate(-1 -1)">
+    <path id="Path_12" data-name="Path 12" class="cls-1" d="M24.279,1A23.279,23.279,0,1,1,1,24.279,23.279,23.279,0,0,1,24.279,1Zm0,43.454A20.175,20.175,0,1,0,4.1,24.279,20.175,20.175,0,0,0,24.279,44.454Z" transform="translate(0 0)"/>
+    <path id="Path_13" data-name="Path 13" class="cls-2" d="M11.349,12.29l8.675,8.66L28.7,12.29a1.552,1.552,0,0,1,2.188,0h0a1.552,1.552,0,0,1,0,2.188l-9.87,9.87a1.412,1.412,0,0,1-1.986,0l-9.87-9.87a1.552,1.552,0,0,1,0-2.188h0A1.552,1.552,0,0,1,11.349,12.29Z" transform="translate(4.255 5.982)"/>
+  </g>
+</svg>

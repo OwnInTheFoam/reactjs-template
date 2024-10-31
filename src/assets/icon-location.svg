@@ -1,0 +1,15 @@
+<svg id="icon-location" xmlns="http://www.w3.org/2000/svg" width="57.5" height="57.5" viewBox="0 0 57.5 57.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bebebe;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <path id="Path_2" data-name="Path 2" class="cls-1" d="M26.771,4A16.774,16.774,0,0,0,10,20.771c0,12.578,16.771,31.146,16.771,31.146S43.542,33.349,43.542,20.771A16.774,16.774,0,0,0,26.771,4Zm0,22.76a5.99,5.99,0,1,1,5.99-5.99A5.992,5.992,0,0,1,26.771,26.76Z" transform="translate(1.979 0.792)"/>
+  <path id="Path_3" data-name="Path 3" class="cls-2" d="M0,0H57.5V57.5H0Z"/>
+</svg>

@@ -1,0 +1,26 @@
+/* Footer container*/
+footer{
+  background-color: #BEBEBE;
+  color: #000000;
+}
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 0em 2em 0em;
+}
+.footer-logo{
+  fill: #000000; /* Todo ? */
+  width: 125px;
+}
+.footer-container ul{
+  display: flex;
+  justify-content: flex-end;
+  flex: 1 1 auto;
+}
+.footer-container ul li a{
+  color: #000000;
+  padding: 0em 0em 0em 1em;
+}
+.social-links img{
+  width: 20px;
+}

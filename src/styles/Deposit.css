@@ -1,0 +1,7 @@
+.deposit-btn{
+  color: blue;
+}
+
+.deposit-btn:hover{
+  cursor: pointer;
+}

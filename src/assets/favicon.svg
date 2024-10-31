@@ -1,0 +1,161 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="210mm"
+  height="248.7mm"
+  version="1.1"
+  viewBox="0 0 210 248.7"
+>
+  <g
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+  >
+    <path
+      fill="#00bc00"
+      strokeWidth="0.101"
+      d="M66.485 160.765c-2.755 1.893-5.44 3.647-11.215 2.644-5.781-1.005-7.676-3.762-9.486-6.483-13.893-20.876-27.455-49.512-43.93-63.888-6.735-5.875 5.356-38.265 31.403-16.206 9.83 8.324 31.092 37.922 31.092 37.922 1.419-8.071 86.225-73.366 135.72-76.096 4.03-.223 7.88.413 8.599 1.567 2.7 4.339.455 8.589-1.603 8.613-49.263 6.26-122.173 90.733-140.58 111.927z"
+    ></path>
+    <path
+      fill="#fff"
+      d="M134.987 111.92s-3.976-.166-5.631-.103c-2.977.112-5.2.355-5.913.588-.448.146-3.573 1.201-5.212 2.174-1.64.972-2.98 2.244-4.333 3.243l-3.175 2.628c-.812 1.02-14.146 13.6-14.536 14.025 3.849-1.918 15.703-7.812 19.232-7.943 8.163-2.057 13.75-.235 14.31-.187 6.64 3.196 9.561 2.204 14.427 12.272 4.656 9.635 3.284 20.813 3.351 31.816.205 33.849-4.868 39.457-36.321 39.457H38.152v-56.685l-20.22-33.04-8.847-12.689V239.688h101.88c53.985 0 65.465-9.596 65.625-69.287.032-12.249-2.097-25.71-9.056-37.43-11.18-17.765-25.66-20.15-27.164-20.497z"
+      style={{
+        lineHeight: "normal",
+        fontVariantLigatures: "normal",
+        fontVariantPosition: "normal",
+        fontVariantCaps: "normal",
+        fontVariantNumeric: "normal",
+        fontVariantAlternates: "normal",
+        fontVariantEastAsian: "normal",
+        fontFeatureSettings: "normal",
+        fontVariationSettings: "normal",
+        WebkitTextIndent: "0",
+        textIndent: "0",
+        WebkitTextAlign: "start",
+        textAlign: "start",
+        WebkitTextDecorationLine: "none",
+        textDecorationLine: "none",
+        WebkitTextDecorationStyle: "solid",
+        textDecorationStyle: "solid",
+        WebkitTextDecorationColor: "#000000",
+        textDecorationColor: "#000000",
+        WebkitTextTransform: "none",
+        textTransform: "none",
+        WebkitTextOrientation: "mixed",
+        textOrientation: "mixed",
+        whiteSpace: "normal",
+        shapePadding: "0",
+        shapeMargin: "0",
+        inlineSize: "0",
+        isolation: "auto",
+        mixBlendMode: "normal",
+        solidColor: "#000000",
+        solidOpacity: "1",
+      }}
+      fillRule="nonzero"
+      strokeDasharray="none"
+      strokeDashoffset="0"
+      strokeMiterlimit="4"
+      strokeWidth="11.46"
+      baselineShift="baseline"
+      clipRule="nonzero"
+      color="#000"
+      colorInterpolation="sRGB"
+      colorInterpolationFilters="linearRGB"
+      colorRendering="auto"
+      direction="ltr"
+      display="inline"
+      dominantBaseline="auto"
+      enableBackground="accumulate"
+      fontFamily="sans-serif"
+      fontSize="medium"
+      fontStretch="normal"
+      fontStyle="normal"
+      fontVariant="normal"
+      fontWeight="normal"
+      imageRendering="auto"
+      letterSpacing="normal"
+      overflow="visible"
+      shapeRendering="auto"
+      stopColor="#000"
+      textAnchor="start"
+      textDecoration="none"
+      textRendering="auto"
+      vectorEffect="none"
+      visibility="visible"
+      wordSpacing="normal"
+      writingMode="lr-tb"
+    ></path>
+    <path
+      fill="#fff"
+      d="M9.062 9.112l.018 55.257c6.813-2.528 18.754-2.635 28.874 7.626l.198-33.783h69.46c8.387 0 10.562 0 12.63 2.673 2.923 3.777 3.562 5.76 2.675 11.094-.887 5.333-10.583 16.926-12.674 19.733l23.434-15.533c6.479-4.155 8.438-6.806 9.255-12.098 1.09-7.068 1.577-12.67-2.527-19.54-6.643-11.122-18.713-15.43-29.871-15.43z"
+      style={{
+        lineHeight: "normal",
+        fontVariantLigatures: "normal",
+        fontVariantPosition: "normal",
+        fontVariantCaps: "normal",
+        fontVariantNumeric: "normal",
+        fontVariantAlternates: "normal",
+        fontVariantEastAsian: "normal",
+        fontFeatureSettings: "normal",
+        fontVariationSettings: "normal",
+        WebkitTextIndent: "0",
+        textIndent: "0",
+        WebkitTextAlign: "start",
+        textAlign: "start",
+        WebkitTextDecorationLine: "none",
+        textDecorationLine: "none",
+        WebkitTextDecorationStyle: "solid",
+        textDecorationStyle: "solid",
+        WebkitTextDecorationColor: "#000000",
+        textDecorationColor: "#000000",
+        WebkitTextTransform: "none",
+        textTransform: "none",
+        WebkitTextOrientation: "mixed",
+        textOrientation: "mixed",
+        whiteSpace: "normal",
+        shapePadding: "0",
+        shapeMargin: "0",
+        inlineSize: "0",
+        isolation: "auto",
+        mixBlendMode: "normal",
+        solidColor: "#000000",
+        solidOpacity: "1",
+      }}
+      fillRule="nonzero"
+      strokeDasharray="none"
+      strokeDashoffset="0"
+      strokeMiterlimit="4"
+      strokeWidth="11.46"
+      baselineShift="baseline"
+      clipRule="nonzero"
+      color="#000"
+      colorInterpolation="sRGB"
+      colorInterpolationFilters="linearRGB"
+      colorRendering="auto"
+      direction="ltr"
+      display="inline"
+      dominantBaseline="auto"
+      enableBackground="accumulate"
+      fontFamily="sans-serif"
+      fontSize="medium"
+      fontStretch="normal"
+      fontStyle="normal"
+      fontVariant="normal"
+      fontWeight="normal"
+      imageRendering="auto"
+      letterSpacing="normal"
+      overflow="visible"
+      shapeRendering="auto"
+      stopColor="#000"
+      textAnchor="start"
+      textDecoration="none"
+      textRendering="auto"
+      vectorEffect="none"
+      visibility="visible"
+      wordSpacing="normal"
+      writingMode="lr-tb"
+    ></path>
+  </g>
+</svg>
