@@ -1,7 +1,7 @@
 // Thirdparty
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import logo from "./../assets/logo.png";
+import logo from "./../assets/logo.svg";
 // Components
 // Styles
 import "./../styles/NavBar.css";
