@@ -1,7 +1,219 @@
-.deposit-btn{
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #0a0a0a;
+  color: #fff;
+}
+
+.deposit-btn {
   color: blue;
 }
 
-.deposit-btn:hover{
+.deposit-btn:hover {
   cursor: pointer;
+}
+
+.depositWrapper {
+  background-color: #1e1c1c;
+  border: 1px solid #787878;
+  width: 410px;
+  border-radius: 100px;
+  padding: 40px 60px;
+  position: relative;
+}
+
+.depositWrapper::after {
+  content: "";
+  border-left: 1px dotted;
+  position: absolute;
+  height: 224px;
+  top: 64px;
+  left: 71px;
+}
+
+.depositContainer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80%;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.stepCount {
+  background-color: #fff;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: black;
+}
+
+.stepCount {
+  background-color: #fff;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: black;
+  position: relative;
+  z-index: 1;
+}
+
+.headingWrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.headingWrapper h3 {
+  font-weight: 500;
+}
+
+.selectWrapper {
+  width: 90%;
+  margin-left: auto;
+  margin-bottom: 32px;
+}
+
+.confirmationMsg {
+  border: 1px solid #787878;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 12px;
+  background-color: #0a0a0a;
+  color: #787878;
+}
+
+.confirmationMsg > div {
+  display: flex;
+  gap: 8px;
+}
+
+.depositMsg {
+  border: 1px solid #787878;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 12px;
+  background-color: #0a0a0a;
+  color: #fff;
+}
+
+.depositMsg > div {
+  display: flex;
+  gap: 8px;
+}
+
+.acknowledge-btn {
+  background-color: #ff9416;
+  color: black;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+}
+
+.acknowledge-btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.dopositCode {
+  border: 1px solid #787878;
+  border-radius: 6px;
+  padding: 6px 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyIcon {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.copyIcon p {
+  color: #ff9416;
+}
+
+.key-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.key-label .label {
+  color: #787878;
+}
+
+.key-label p {
+  margin: 0;
+}
+
+.deposit-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px 12px;
+  border-bottom: 1px solid #787878;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.deposit-arival-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  padding: 8px 10px;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.FAQ-container {
+  margin-top: 40px;
+}
+
+.FAQ-container h2 {
+  font-weight: 400;
+  margin-left: -15px;
+  margin-bottom: 14px;
+}
+
+.FAQ-container ul {
+  list-style-type: unset;
+}
+
+.FAQ-container ul li {
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.input-wrapper {
+  padding: 0 24px;
+}
+
+@media screen and (max-width: 912px) {
+  .depositContainer {
+    max-width: 80%;
+    padding: 20px 0;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .depositWrapper {
+    width: 100%;
+  }
 }

@@ -1,0 +1,29 @@
+.select-dropdown {
+  width: 100%;
+  height: 36px;
+  border: 1px solid #787878;
+  border-radius: 6px;
+  padding: 10px;
+  background-color: #0a0a0a;
+  color: #fff;
+}
+
+.selected-logo {
+  height: 24px;
+  width: 24px;
+  margin-right: 8px;
+}
+
+.custom-option {
+  display: flex;
+  align-items: center;
+}
+.custom-option:hover {
+  background-color: #787878;
+  cursor: pointer;
+}
+
+.option-title {
+  margin-left: 36px;
+  margin-top: -32px;
+}
