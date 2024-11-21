@@ -1,72 +1,60 @@
-@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,600');
-
-/* Base document styles */
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Nanum+Gothic', 'sans-serif';
-    letter-spacing: 0.04em;
+p,
+blockquote {
+  font-size: 0.9em;
+  line-height: 1.8em; /*The area around text*/
 }
-p,blockquote{
-    font-size: 0.9em;
-    line-height: 1.8em; /*The area around text*/
+ul {
+  list-style-type: none;
 }
-ul{
-    list-style-type: none;
-}
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-/* Main container */
-.container{
-    text-align: center;
-    padding: 0em 1em 0em 1em;
+.container {
+  text-align: center;
+  padding: 0em 1em 0em 1em;
 }
 
-/* Promotional container */
-.promo-bar{
-    background-color: #11a6e1;
+.promo-bar {
+  background-color: #11a6e1;
 }
-.promo-bar p{
-    text-align: center;
-    color: #ffffff;
-}
-
-/* Dark section container */
-.dark-container{
-    background-color: #272727;
-    color: #ffffff;
+.promo-bar p {
+  text-align: center;
+  color: #ffffff;
 }
 
-/* Header navigational container */
-.header-app{
-    display: flex;
-    justify-content: space-between;
+.dark-container {
+  background-color: #272727;
+  color: #ffffff;
 }
-.logo{
-    width: 125px;
-    margin-top: 1em;
-    filter: invert(98%) sepia(100%) saturate(9%) hue-rotate(197deg) brightness(103%) contrast(104%);
-    color: #ffffff;
+
+.header-app {
+  display: flex;
+  justify-content: space-between;
 }
-.nav-bar{
+.logo {
+  width: 125px;
+  margin-top: 1em;
+  filter: invert(98%) sepia(100%) saturate(9%) hue-rotate(197deg) brightness(103%) contrast(104%);
+  color: #ffffff;
+}
+.nav-bar {
   /* overflow: hidden; */
   height: 4em;
 }
-.nav-bar a{
+.nav-bar a {
   text-align: center;
 }
-.nav-bar ul{
+.nav-bar ul {
   display: flex;
   list-style-type: none;
 }
 /* Looks like this one is stuffing it up!!*/
-.nav-bar ul li a{
+.nav-bar ul li a {
   color: #ffffff;
 }
 
-.nav-bar-link{
+.nav-bar-link {
   text-align: right;
   padding: 0em 0em 0em 0em;
   margin-right: 2em;
@@ -74,25 +62,25 @@ a{
   top: 1.5em;
   text-decoration: none;
 }
-.nav-bar ul li a:hover{
-    background-color: inherit;
+.nav-bar ul li a:hover {
+  background-color: inherit;
 }
-.link-book-now{
-    border-radius: 20px;
-    border: 0.1em solid #ffffff;
-    padding: 0.7em 1.7em 0.7em 1.7em;
+.link-book-now {
+  border-radius: 20px;
+  border: 0.1em solid #ffffff;
+  padding: 0.7em 1.7em 0.7em 1.7em;
 }
-.loginmodal{
-    /* To color a svg use filter. Not supported in old browsers (https://codepen.io/sosuke/pen/Pjoqqp) */
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(207deg) brightness(104%) contrast(103%);
-    width: 30px;
-    margin-top: 1em;
+.loginmodal {
+  /* To color a svg use filter. Not supported in old browsers (https://codepen.io/sosuke/pen/Pjoqqp) */
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(207deg) brightness(104%) contrast(103%);
+  width: 30px;
+  margin-top: 1em;
 }
-.nav-bar ul li img:hover{
-    cursor: pointer;
+.nav-bar ul li img:hover {
+  cursor: pointer;
 }
 
-.greenButton{
+.greenButton {
   background: #11a6e1;
   width: 9em;
   height: 2em;
@@ -106,24 +94,5 @@ a{
   background: #737373;
 }
 .greenButton:disabled:hover {
-  cursor:not-allowed;
-}
-
-/* Calendar */
-.in-prev-month,
-.in-next-month {
-  opacity: 0.25;
-  pointer-events: none;
   cursor: not-allowed;
-  user-select: none;
-  -moz-user-select: none;
-  -khtml-user-select: none;
-}
-.unselect{
-  opacity: 0.75;
-  pointer-events: none;
-  cursor: not-allowed;
-  user-select: none;
-  -moz-user-select: none;
-  -khtml-user-select: none;
 }

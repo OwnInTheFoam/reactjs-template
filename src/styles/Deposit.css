@@ -118,11 +118,21 @@ body {
   border-radius: 4px;
 }
 
+.step-active-color {
+  background-color: #ff9416;
+}
+
 .acknowledge-btn-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 12px;
+}
+
+.acknowledge-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  background-color: #787878;
 }
 
 .dopositCode {

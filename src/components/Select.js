@@ -2,17 +2,13 @@ import React from "react";
 import "./../styles/Select.css";
 import ReactSelect, { components } from "react-select";
 
-const Select = ({ options, value, selectedValue }) => {
+const Select = ({ options, value, handleChange, ...rest }) => {
   const Options = (props) => (
     <components.Option {...props} className="custom-option">
       <img src={props.data.icon} alt="logo" className="selected-logo" />
       <div className="option-title"> {props.data.label}</div>
     </components.Option>
   );
-
-  const handleChange = (value) => {
-    selectedValue(value);
-  };
 
   const SingleValue = ({ children, ...props }) => (
     <components.SingleValue {...props}>
@@ -23,6 +19,7 @@ const Select = ({ options, value, selectedValue }) => {
 
   return (
     <ReactSelect
+      {...rest}
       value={value}
       options={options}
       onChange={handleChange}
